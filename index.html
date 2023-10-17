@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+<body>
+    <div class="main body">
+        <div class="calc">
+            <div class="output">
+                <input type="text" id= "out" >
+            </div>
+            <div class="btn">
+                <div class="row">
+                    <div class="left">
+                        <button onclick="clearscreen()" class="btnstyle">clr</button>
+                    </div>
+                    <div class="right">
+                        <button onclick="clearscreen()" class="btnstyle2">AC</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <button onclick="btnclick(7)" class="btnstyle">7</button>
+                    <button onclick="btnclick(8)"class="btnstyle">8</button>
+                    <button onclick="btnclick(9)"class="btnstyle">9</button>
+                    <button onclick="btnclick('+')"class="btnstyle">+</button>
+
+
+                </div>
+                <div class="row">
+                    <button onclick="btnclick(4)" class="btnstyle">4</button>
+                    <button onclick="btnclick(5)"class="btnstyle">5</button>
+                    <button onclick="btnclick(6)"class="btnstyle">6</button>
+                    <button onclick="btnclick('-')"class="btnstyle">-</button>
+
+                </div>
+                <div class="row">
+                    <button onclick="btnclick(3)" class="btnstyle">3</button>
+                    <button onclick="btnclick(2)"class="btnstyle">2</button>
+                    <button onclick="btnclick(1)"class="btnstyle">1</button>
+                    <button onclick="btnclick('*')"class="btnstyle">X</button>
+                    
+                </div>
+                <div class="row">
+                    <button onclick="btnclick(0)" class="btnstyle">0</button>
+                    <button onclick="equalclick()"class="btnstyle">=</button>
+                    <button onclick="btnclick('.')"class="btnstyle">.</button>
+                    <button onclick="btnclick('/')"class="btnstyle">/</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
